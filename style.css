@@ -1,0 +1,44 @@
+.home{
+    background-image: url(https://www.saudigamer.com/tachyon/sites/6/2023/04/Untitled-88.jpg?resize=1366%2C685&crop_strategy=smart&quality=60);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.home2 h2::after{
+    content: "|";
+    animation-name: type;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes type{
+0%{content: "|";}
+10%{content: "S|";}
+15%{content: "Se|";}
+20%{content: "Ser|";}
+25%{content: "Seri|";}
+30%{content: "Serie|";}
+35%{content: "Series|";}
+40%{content: "Series |";}
+45%{content: "Series O|";}
+50%{content: "Series Of|";}
+55%{content: "Series Of |";}
+60%{content: "Series Of G|";}
+65%{content: "Series Of Ga|";}
+70%{content: "Series Of Gam|";}
+75%{content: "Series Of Game|";}
+80%{content: "Series Of Games|";}
+85%{content: "Series Of Gam|";}
+90%{content: "Series Of G|";}
+95%{content: "Series Of|";}
+100%{content: "|";}
+}

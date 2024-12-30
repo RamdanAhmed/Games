@@ -1,0 +1,44 @@
+.home{
+    background-image: url(https://i.ytimg.com/vi/qiJNGf5tyLA/maxresdefault.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.home2 h2::after{
+    content: "|";
+    animation-name: type;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes type{
+0%{content: "|";}
+10%{content: "E|";}
+15%{content: "Ex|";}
+20%{content: "Exc|";}
+25%{content: "Exci|";}
+30%{content: "Excit|";}
+35%{content: "Excite|";}
+40%{content: "Excitem|";}
+45%{content: "Exciteme|";}
+50%{content: "Excitemen|";}
+55%{content: "Excitement|";}
+60%{content: "Excitemen|";}
+65%{content: "Exciteme|";}
+70%{content: "Excitem|";}
+75%{content: "Excite|";}
+80%{content: "Excit|";}
+85%{content: "Exci|";}
+90%{content: "Exc|";}
+95%{content: "Ex|";}
+100%{content: "|";}
+}
